@@ -9,9 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.8"
+    "@auth/prisma-adapter": "^2.4.2",
+    "@prisma/client": "^5.19.1",
+    "@react-email/components": "^0.0.25",
+    "next": "14.3.0-canary.59",
+    "next-auth": "beta",
+    "prisma": "^5.19.1",
+    "react": "19.0.0-beta-4508873393-20240430",
+    "react-dom": "19.0.0-beta-4508873393-20240430",
+    "react-email": "^3.0.1",
+    "resend": "^4.0.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "typescript": "^5",
