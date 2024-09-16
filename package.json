@@ -12,23 +12,26 @@
     "@auth/prisma-adapter": "^2.4.2",
     "@prisma/client": "^5.19.1",
     "@react-email/components": "^0.0.25",
-    "next": "14.3.0-canary.59",
+    "next": "rc",
     "next-auth": "beta",
     "prisma": "^5.19.1",
-    "react": "19.0.0-beta-4508873393-20240430",
-    "react-dom": "19.0.0-beta-4508873393-20240430",
+    "react": "rc",
+    "react-dom": "rc",
     "react-email": "^3.0.1",
     "resend": "^4.0.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react": "18.3.5",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.8",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.8"
+    "typescript": "^5"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@rc",
+    "@types/react-dom": "npm:types-react-dom@rc"
   }
 }
